@@ -2,7 +2,10 @@ import _ from 'lodash';
 import './css/style.css';
 import './css/style2.css';
 import Icon from './images/logo.jpg';
-import data from './js/data.json';
+// import data from './js/data.json';
+// import data from './js/data.json'
+import { data } from './js/data.json'
+
 
 function component() {
     let element = document.createElement('div');
@@ -18,6 +21,7 @@ function component() {
 
     // JSON 数据
     var dataDiv = document.createElement('div');
+    console.log(data); // 3
     dataDiv.innerHTML = JSON.stringify(data);
     element.appendChild(dataDiv);
   
