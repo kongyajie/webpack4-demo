@@ -13,6 +13,9 @@ module.exports = {
     filename: '[name].bundle.js',
     path: path.resolve(__dirname, 'dist')
   },
+  devServer: {
+    contentBase: './dist'
+  },
   optimization: {
     splitChunks: {
       chunks: 'all'

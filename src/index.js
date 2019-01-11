@@ -10,7 +10,7 @@ import { data } from './js/data.json'
 function component() {
     let element = document.createElement('div');
   
-    element.innerHTML = _.join(['Hello', 'webpack4'], ' ');
+    element.innerHTML = _.join(['Hello22222', 'webpack4'], ' ');
     element.classList.add('hello');
 
     // 将图像添加到我们现有的 div。
